@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FizzBuzz {
+    // 412 Fizz Buzz
     public List<String> fizzBuzz(int n){
         List<String> result = new ArrayList<>();
         for (int i = 1, fizz = 0, buzz = 0; i <= n; i++ ){
